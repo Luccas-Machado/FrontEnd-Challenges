@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    height: 800px;
+    padding:100px;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;          
+}
