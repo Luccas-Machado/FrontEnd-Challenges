@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    outline: none;
+}
+
+body {
+    background-color:rgba(233, 216, 195, 0.911);
+    font-family:"Outfit", sans-serif;
+    text-align: justify;
+}
+
+.container {
+    width:700px;
+    height: auto;
+    margin: 10vh auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px 30px 80px;
+}
+
+.receita {
+    border-radius: 20px;  
+}
+
+h1 {
+   margin-top: 15px; 
+   margin-bottom: 15px;
+   font-weight: bold;
+}
+
+h2 {
+
+    padding-bottom: 10px;
+    color: rgb(129, 23, 23);
+}
+
+.preparation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: rgb(255, 241, 244);
+    border-radius: 10px;
+}
+
+.preparation > h3 {
+    color: rgb(197, 5, 133);
+}
+
+.ingredients {
+    position: relative;
+}
+
+.ingredients::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: hsla(0, 3%, 44%, 0.404);
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+.list {
+    padding-left: 20px;
+    line-height: 2.3;
+}
+
+.instruction::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: hsla(0, 3%, 44%, 0.404);
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+.nutrition {
+    margin-left: 20px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid hsla(0, 3%, 44%, 0.404);   
+}
+
+.inline p {
+    margin-right: 245px;
+    color: rgb(129, 23, 23);
+}
